@@ -29,7 +29,7 @@ Using WALA we built a Call Graph representation of three java codes and using JU
   - All tests are defined at tests package of CallGraphTester project
   - Three java codes are used as sample and they can be find at sample package
   - GraphConstructionsTests: Tests the basic construction of graphs representations
-  - SanityTests: Has an object of test if the basic expected structure of graphs are correct.
+  - SanityTests: Has an objective of test if the basic expected structure of the graphs are correct.
   - DetailsTests: Some especific test about the sample like:
     - Verify if a method that was never invoked by any other method exists on the graph
     - Verify if all initializers exist on the graph
