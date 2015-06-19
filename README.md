@@ -31,9 +31,9 @@ Using WALA we build a Call Graph representation of three java codes and using JU
   - GraphConstructionsTests: Test the basic construction of graphs representations
   - SanityTests: Has an object of test if the basic expected structure of graphs are correct.
   - DetailsTests: Some especific test about the sample like:
-    - Verify if an method that was never invoked by any other method exists on graph
+    - Verify if a method that was never invoked by any other method exists on graph
     - Verify if all initializers exist on graph
-    - Verify if there is a mutual recursion between an function that has an recursive structure, such as Euclidean Algorithm for find the Greatest Common Divisor between two numbers.
+    - Verify if there is a mutual recursion between a function that has a recursive structure, such as Euclidean Algorithm for find the Greatest Common Divisor between two numbers.
     - Verify if there is an edge from an overrided function to his parent function using super acessor
   - These tests can be usefull to get information about the code structure and verify if all behaviors about the call graph are working as expected.
   - You can run all tests executing AllTests
