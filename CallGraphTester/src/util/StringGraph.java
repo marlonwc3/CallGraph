@@ -15,7 +15,7 @@ import com.ibm.wala.ipa.callgraph.Context;
 public class StringGraph {
 	public LinkedHashMap<String, ArrayList<String>> nodes;
 
-	/*we didn't put these prefix into exclusion files because we are  filtering our graph*/
+	/*we didn't put these prefix into exclusion files because we are  pruning our graph*/
 	private static boolean valid(String sig){
 		return !( (sig.startsWith("java.") || sig.startsWith("com.ibm") || sig.startsWith("javax.") || sig.startsWith("java.lang.StringBuilder.") ));
 		
