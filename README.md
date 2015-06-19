@@ -33,7 +33,7 @@ Using WALA we built a Call Graph representation of three java codes and using JU
   - DetailsTests: Some especific test about the sample like:
     - Verify if a method that was never invoked by any other method exists on the graph
     - Verify if all initializers exist on the graph
-    - Verify if there is a mutual recursion between a function that has a recursive structure, such as Euclidean Algorithm for finding the Greatest Common Divisor between two numbers.
+    - Verify if there is a mutual (simple) recursion between a function that has a recursive structure, such as Euclidean Algorithm for finding the Greatest Common Divisor between two numbers.
     - Verify if there is an edge from an overrided function to his parent function using super acessor
   - These tests can be useful to get informations about the code structure and verify if all behaviors about the call graph are working as expected.
   - You can run all tests executing AllTests
