@@ -1,6 +1,6 @@
 # CallGraph
 This project was developed to Compilers discipline (IF688) at Centro de Informática of Universidade Federal de Pernambuco.
-Using WALA we build a Call Graph representation of three java codes and using JUnit we made unit tests to ensure their results.
+Using WALA we built a Call Graph representation of three java codes and using JUnit we made unit tests to ensure their results.
 
 
 ### Pre-requisits
@@ -11,10 +11,10 @@ Using WALA we build a Call Graph representation of three java codes and using JU
   - You can get more informations about WALA at: http://wala.sourceforge.net/wiki/index.php/Main_Page
   
 - Eclipse 3.7
-  - You can download Eclipse 3.7 at oracle oficial website:     http://www.eclipse.org/downloads/packages/eclipse-classic-37/indigor
+  - You can download Eclipse 3.7 at oracle official website:     http://www.eclipse.org/downloads/packages/eclipse-classic-37/indigor
   
 - JRE 1.6 
-  - You can download JRE 1.6 at oracle oficial website: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html
+  - You can download JRE 1.6 at oracle official website: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html
 
 ### Configuration
 
@@ -27,15 +27,15 @@ Using WALA we build a Call Graph representation of three java codes and using JU
 
 ###  Tests
   - All tests are defined at tests package of CallGraphTester project
-  - Three java codes are used as sample and their can be find at sample package
-  - GraphConstructionsTests: Test the basic construction of graphs representations
+  - Three java codes are used as sample and they can be find at sample package
+  - GraphConstructionsTests: Tests the basic construction of graphs representations
   - SanityTests: Has an object of test if the basic expected structure of graphs are correct.
   - DetailsTests: Some especific test about the sample like:
-    - Verify if a method that was never invoked by any other method exists on graph
-    - Verify if all initializers exist on graph
-    - Verify if there is a mutual recursion between a function that has a recursive structure, such as Euclidean Algorithm for find the Greatest Common Divisor between two numbers.
+    - Verify if a method that was never invoked by any other method exists on the graph
+    - Verify if all initializers exist on the graph
+    - Verify if there is a mutual recursion between a function that has a recursive structure, such as Euclidean Algorithm for finding the Greatest Common Divisor between two numbers.
     - Verify if there is an edge from an overrided function to his parent function using super acessor
-  - These tests can be usefull to get information about the code structure and verify if all behaviors about the call graph are working as expected.
+  - These tests can be useful to get informations about the code structure and verify if all behaviors about the call graph are working as expected.
   - You can run all tests executing AllTests
 
 ### Contact
