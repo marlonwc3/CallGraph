@@ -16,6 +16,10 @@ Using WALA we built a Call Graph representation of three java codes and using JU
 - JRE 1.6 
   - You can download JRE 1.6 at oracle official website: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html
 
+- JUnit 4
+  - Embedded in Eclipse 3.7 Sdk
+  - But you can download JUnit official website: http://junit.org/
+
 ### Configuration
 
 
