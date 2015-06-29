@@ -30,7 +30,6 @@ public class StringGraph {
 		Iterator<CGNode> it = cg.iterator();
 		while(it.hasNext()){
 			CGNode node = it.next();
-			Context x = node.getContext();
 			String sig = node.getMethod().getSignature();
 			if(!valid(sig) ) continue;
 			ArrayList<String> arr = new ArrayList<String>();
